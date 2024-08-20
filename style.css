@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header-containeer{
+    background-color: black;
+    color: white;
+}
+
+#navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2%;
+}
+
+#navbar>div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#logo{
+    width: 50px;
+}
+
+#Experinces-info{
+    gap: 15px;
+}
+
+#account-section{
+    display: flex;
+    gap: 15px;
+}
+
+#search-box div{
+    background: transparent;
+    border-right: 2px solid grey;
+    margin: 0 5px;
+}
+
+#search-box{
+    width: 60%;
+    height: 70px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 40px;
+    padding: 6px 10px 6px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#search-box>div>input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+}
+
+#search-box>div>label{
+    color:black;
+    background: transparent;
+    font-weight: 700;
+}
+
+#search-btn{
+    background-color: #de3151;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#img-containeer{
+    height: 100vh;
+    margin: 5%;
+    position: relative;
+}
+
+#img-containeer>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#main-containeer{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#inspiration-containeer, #Experince-containeer, #future-gateways{
+    margin: 0 5%;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+#Experince-containeer>div{
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#gift-card{
+    margin: 0 4%;
+    padding: 10px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#question-section{
+    height: 640px;
+    margin: 0 5%;
+}
+
+#future-gateways>p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#trip-info{
+    display: flex;
+    margin: 0 3%;
+    padding: 10px;
+    gap: 50px;
+    cursor: pointer;
+}
+
+#gateways-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.country-name{
+    color: gray;
+}
+
+.city-name{
+    color: black;
+}
+
+#gateways-info>button{
+    width: 100px;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer>div{
+   padding: 10px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+}
+
+footer>div>div{
+    color: rgb(93, 91, 91);
+    cursor: pointer;
+}
+
+#compony-info>div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 30%;
+    margin-top: 2%;
+}
+
+#icons{
+    justify-content: flex-end;
+}
+
+#standard-navbar{
+    height: 148px;
+}
+
+#header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header>img{
+    width: 10%;
+    height: 20%;
+}
+
+#standard-searchbar{
+    border: 1px solid rgb(216, 201, 201);
+    padding: 5px;
+    width: 35%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#standard-searchbar div{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-left:1px solid rgb(242, 238, 238);
+}
+
+#standard-location{
+    border: none !important;
+}
+
+#suguesstions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#suguesstions>div{
+    border: 1px solid gray;
+    border-radius: 30px;  
+    text-align: center; 
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    gap :8px;
+}
+
+.dropdown>span{
+    color:gray
+}
+
+#result-page{
+    padding: 10px;
+    margin-top: 3%;
+    display: flex;
+}
+
+#search-results{
+    padding: 10px;
+    flex: 0.5;
+}
+
+#map-result{
+    padding: 10px;
+    flex: 0.5;
+}
+
+#numbers-of-results{
+    color: gray;
+    font-size: 20px;
+}
+
+#Luxe-result-page{
+    padding: 10px;
+    height: 652px;
+    display: flex;
+}
+
+.card{
+    border-top: 1px solid rgba(128, 128, 128, 0.726);
+    padding: 10px;
+    height: 250px;
+    margin-top: 2%;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.card>img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card>div>div{
+    padding: 10px;
+}
+
+#room-functionatities{
+    color: gray;
+}
+
+#ratings-price{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
